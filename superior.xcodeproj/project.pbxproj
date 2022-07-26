@@ -47,6 +47,7 @@
 		6FB7FADF28899E6B00D13B7F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB7FADE28899E6B00D13B7F /* FirebaseStorage */; };
 		6FB7FAE128899E6B00D13B7F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB7FAE028899E6B00D13B7F /* FirebaseStorageCombine-Community */; };
 		6FB7FAE328899E6B00D13B7F /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB7FAE228899E6B00D13B7F /* FirebaseStorageSwift-Beta */; };
+		6FEE9797288ED6820031EE9B /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE9796288ED6820031EE9B /* UserServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		6FB7FAA528896F8B00D13B7F /* CreateChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChallengeView.swift; sourceTree = "<group>"; };
 		6FB7FAA72889714900D13B7F /* DropdownItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItemProtocol.swift; sourceTree = "<group>"; };
 		6FB7FAA928899C6D00D13B7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6FEE9796288ED6820031EE9B /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		6FB7FA872888A58800D13B7F /* superior */ = {
 			isa = PBXGroup;
 			children = (
+				6FC88862288ED6220029FAF4 /* Services */,
 				6FB7FAA928899C6D00D13B7F /* GoogleService-Info.plist */,
 				6FB7FAA428896F4D00D13B7F /* ViewModels */,
 				6FB7FA882888A58800D13B7F /* superiorApp.swift */,
@@ -153,6 +156,14 @@
 				6FB7FAA72889714900D13B7F /* DropdownItemProtocol.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6FC88862288ED6220029FAF4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6FEE9796288ED6820031EE9B /* UserServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				6FB7FA8B2888A58800D13B7F /* LandingView.swift in Sources */,
 				6FB7FA992888B5BA00D13B7F /* ColorAndExtension.swift in Sources */,
+				6FEE9797288ED6820031EE9B /* UserServices.swift in Sources */,
 				6FB7FA892888A58800D13B7F /* superiorApp.swift in Sources */,
 				6FB7FAA82889714A00D13B7F /* DropdownItemProtocol.swift in Sources */,
 				6FB7FA972888B49400D13B7F /* MainButtonStyle.swift in Sources */,
